@@ -1,0 +1,467 @@
+body{
+    background: none;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: url(../assets/images/banner-bk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left; 
+    width: 100%;
+    height: 650px;
+    margin: 0; 
+}
+
+.flex-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 55px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.conjunto-header-1{
+    width: 65%;
+    color: #fff;
+    font-family: arial;
+}
+
+.contenido-header{
+    margin-top: 55px;
+    font-size: 25px; 
+    font-weight: 100;
+    color: #fffb; 
+} 
+
+.box-botton-header{
+    margin-top: 80px;
+}
+
+.botton-header{
+    width: 155px;
+    height: 50px;
+    font-family: arial;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 35px;
+    background: rgb(0, 255, 173);
+    border-style: none;
+}
+
+.new{
+    font-size: 70px;
+
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.conjunto-header-2{
+    font-family: arial;
+    color: #fff;
+    font-weight: 100;
+}
+
+.abajito{
+    margin-top: 35px; 
+}
+
+.especial-focus-header:hover{
+    cursor: pointer;
+    color: #fffa;
+}
+
+.primera-parte-flex{
+    background: #fff;
+    width: 100%;
+
+}
+
+.primera-parte{
+    margin-top: 100px;
+}
+
+.titulo-primera-parte{
+    text-align: center;
+}
+
+.false-title{
+    color: #000;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: arial;
+    font-style: italic;
+}
+
+.primera-parte-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: arial; 
+}
+
+.box-smart1{
+    width: 15%;
+    text-align: center;
+
+}
+
+.title-smart1{
+    letter-spacing: 2px;
+    color: #000b;
+}
+
+.contenido-smart1{
+    margin-top: 10px;
+    font-weight: 100;
+    color: #0007;
+}
+
+.gradiante{
+    background: linear-gradient(to bottom right, #FFF 50%, rgb(0, 255, 173) 50%);
+}
+
+
+.segunda-parte-flex{
+    margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-segunda-parte{
+    font-size: 35px;
+    font-family: arial;
+    font-weight: bolder;
+    padding: 0;
+}
+
+.contenido-segunda-parte{
+    text-align: justify; 
+    margin-top: 25px;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: 100;
+    color: #4449;
+    width: 90%;
+}
+
+.boton-segunda-parte{
+    margin-top: 35px;
+}
+
+.bottom-segunda-parte{
+    width: 30%;
+    height: 45px; 
+    background: rgb(25, 36, 64);
+    text-align: center;
+    border-radius: 35px;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border-style: none;
+}
+
+.box-imagen1-parte2{
+    margin-right: 150px;
+}
+
+.segunda-parte-flex-2{
+     margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.conjunto-parte2-3{
+    margin-right: 100px;
+}
+
+.box-title-pass-flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.title-pass-flex{
+    font-family: arial;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.pass-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 55px;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+/*  .pass-flex:first-child{
+    background: transparent;}  */
+
+
+
+
+.fondo-pass-1{
+    background: transparent;
+    width: 25%;
+    height: 465px;
+}
+
+.fondo-pass-2{
+    background-color: rgb(25, 36, 64);
+    width: 25%;
+    height: 465px;
+    border-radius: 4px;
+}
+
+.fondo-pass-3{
+    width: 25%;
+    height: 465px;
+    background: transparent;
+}
+
+.box-pass{
+    margin: 40px;
+}
+
+.price{
+    letter-spacing: 1px;
+}
+
+.simbolic{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.number{
+    font-size: 70px;
+    font-weight: 800;
+
+}
+
+.minimalista{
+    font-weight: bolder;
+}
+
+.pass-description p{
+    line-height: 30px;
+}
+
+.box-bottom-pass-1{
+    margin-top: 40px;
+    
+}
+
+.boton-pass-1{
+    border-radius: 35px;
+    width: 40%;
+    height: 100px;
+    height: 45px;
+    font-weight: bolder;
+    background: transparent;
+    font-family: arial;
+    color: rgb(25, 36, 64);
+    border: solid 3px rgb(25, 36, 64);
+    border-style: none;
+}
+
+.title-pass{
+    color: #FFF;
+}
+
+.price-2{
+    letter-spacing: 1px;
+}
+
+.simbolic-2{
+    color: #fff;
+     font-size: 15px;
+    font-weight: bolder;
+}
+
+.number-2{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.minimalista-2{
+    color: #fff;
+    font-weight: bolder;
+}
+
+.pass-description-2 p{
+    color: #fff;
+    line-height: 30px;
+}
+
+.box-bottom-pass-2{
+    margin-top: 40px;
+    
+}
+
+.boton-pass-2{
+    border-radius: 35px;
+    width: 40%;
+    height: 100px;
+    height: 45px;
+    font-weight: bolder;
+    background: rgb(0, 255, 173);
+    font-family: arial;
+    border: none;
+    color: rgb(25, 36, 64);
+    border-style: none;
+
+}
+
+.logos-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+    background: rgb(236, 238, 239);
+    padding: 80px;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.fondo-contact{
+    display: flex;
+    justify-content: space-between;
+    background: url(../assets/images/contact-bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 450px;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+.contenido-contact-us{
+    width: 100%;
+    font-family: arial;
+    color: #fff;
+}
+/* aca esta para mover todo el bloque contact-us*/
+.space-contact-us{
+    margin-top: 85px;
+    margin-left: 150px;
+    width: 50%;
+}
+
+.title-contact-us{
+    width: 90%;
+    font-size: 32px;
+}
+
+.texto-contact-us{
+    width: 100%;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.data-list-contact-us{
+    margin-top: 25px;
+    font-weight: 100;
+    line-height: 35px;
+}
+.contenido-formulario{
+    color: rgb(0, 255, 173);
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 100; 
+}
+
+.space-formulario-flex{
+    display: flex;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+form{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.your{
+    font-family: arial;
+    font-weight: 100;
+    background: transparent; 
+    border: none;
+    border: solid rgb(0, 255, 173) 1px;
+    border-radius: 4px;
+    height: 30px;
+    width: 200px;
+}
+
+.mensaje{
+    color: rgb(0, 255, 173);
+    font-family: arial;
+    font-weight: 100;
+    background: transparent;
+    border: none;
+    border: solid 1px rgb(0, 255, 173);
+    border-radius: 4px;
+    width: 210%;
+    height: 100px;
+}
+
+.space-mensaje{
+    margin-top: 10px;
+}
+
+.boton-space{
+    margin-top: 25px;
+}
+
+.boton-contact-us{
+    width: 210%;
+    height: 40px;
+    background: rgb(0, 255, 173);
+    border: none;
+    border-radius: 35px;
+    font-family: arial;
+    font-size: 16px;  
+    border-style: none;    
+}
+
+footer{
+    width: 100%;
+    height: 130px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(24, 36, 64);
+    align-items: center;
+}
+
+.copyright{
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 100;
+
+}
+
+.facebook{
+    width: 50px;
+    height: 50px;
+}
+.box-facebook{
+    width: 5px;
+}
