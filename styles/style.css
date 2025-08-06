@@ -465,3 +465,532 @@ footer{
 .box-facebook{
     width: 5px;
 }
+
+@media (max-width: 1279px){
+    body{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    .conjunto-header-1{
+        margin-top: -10px;
+    }
+
+    .contenido-header{
+        margin-top: 10px
+    }
+
+    .contenido-header p{
+        font-size: 18px;
+    } 
+    
+    .box-botton-header{
+        margin-top: 20px;
+    }
+
+    .segunda-parte-flex{
+        margin: 150px;
+    }
+    
+    .conjunto-parte2-2{
+        width: 300px;
+    }
+
+    .title-segunda-parte h2{
+        font-size: 36px;
+    }
+
+    .contenido-segunda-parte{
+        width: 220px;
+    }
+
+    .contenido-segunda-parte p{
+        font-size: 16px;
+    }
+
+    .bottom-segunda-parte{
+        width: 120px;
+    }
+    .imagen1-parte2{
+        width: 450px;
+    }   
+    .box-imagen1-parte2{
+        margin-right: 250px;
+        box-sizing: border-box;
+    }
+
+    .conjunto-parte2{
+        margin-right: 55px;
+    }
+
+    .contenido-segunda-parte{
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    .contenido-segunda-parte p{
+        width: 155px;
+    }
+
+    .imagen2-parte2{
+        width: 500px;
+    }
+
+    .boton-segunda-parte{
+        margin-top: 10px;
+    }
+
+    .fondo-pass-1{
+        width: 300px;
+
+    }
+
+    .fondo-pass-2{
+        width: 300px;
+    }
+
+    .fondo-pass-3{
+        width: 300px;
+    }
+
+    .boton-pass-1{
+        width: 100px;
+    }
+
+    .boton-pass-2{
+        width: 100px;
+    }
+
+    .boton-pass-3{
+        width: 100px;
+    }
+
+    .space-contact-us{
+        width: 60%;
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+
+    .title-contact-us h2{
+        font-size: 46px;
+
+    }
+
+    .space-formulario-flex{
+        margin-right: 50px;
+
+    }
+    
+}
+
+@media (max-width:920px){
+        .segunda-parte-flex{
+            margin: 110px;
+            margin-top: 100px;
+        }
+
+        .contenido-segunda-parte{
+            margin-top: 10px;
+        }
+        .contenido-segunda-parte p{
+            width: 100%;
+            text-wrap: left;
+        }
+
+        .boton-segunda-parte{
+            margin-top: 25px;
+        }
+
+        .imagen1-parte2{
+            width: 400px;
+        }
+
+        .conjunto-parte2-3{
+            margin-right: 25px;
+        }
+        
+        .logos-flex{
+            padding-left: 15px;
+            padding-top: 70px;
+        }
+
+        .logos-flex img{
+            width: 125px;
+        }
+
+        .space-contact-us{
+            margin-left: 50px;
+            width: 80%;
+        }
+
+        .title-contact-us h2{
+            font-size: 44px;
+        }
+
+        .space-formulario-flex{
+            margin-right: 20px;
+            margin-top: 25px;
+        }
+}
+
+@media (max-width: 768px){
+        header{
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: left; 
+        width: 100%;
+        }
+
+        .flex-header{
+            padding-left: 60px;
+            display: flex;
+            
+        }   
+
+        .titulo-header{
+            width: 100%;
+        }
+
+        .titulo-header h1{
+            font-size: 44px;
+        }
+
+        .contenido-header{
+            width: 210px; 
+         }
+
+        .contenido-header p{
+            font-size: 16px;
+        }
+
+        .box-botton-header{
+            margin-top: 55px;
+        }  
+
+        .conjunto-header-2{
+            width: 100%;
+        }
+        .abajito{
+            margin-top: 15px;
+            margin-left: 100px;
+        }
+
+        .box-smart1{
+            width: 100%;
+        }
+
+        .box-smart1 img{
+            width: 110px; 
+        }
+        .box-smart1 h2{
+            font-size: 18px; 
+         }
+
+        .box-smart1 p{
+            font-size: 12px;
+        }
+     
+        .segunda-parte-flex{
+            margin-left: 30px;
+        }
+
+        .title-segunda-parte h2{
+            font-size: 26px;
+        }
+
+        .contenido-segunda-parte{
+            width: 140px;
+        }
+
+        .contenido-segunda-parte p{
+            font-size: 14px;
+        }
+
+        .boton-segunda-parte{
+            margin-top: 25px;
+        }
+
+        .bottom-segunda-parte{
+            width: 110px; 
+            font-size: 16px;
+        }
+
+        .conjunto-parte2-2{
+            width: 200px;
+        }
+
+        .box-imagen1-parte-2{
+            width: 100%; 
+         }
+        .imagen1-parte2{
+            width: 255px;
+            margin-top: 35px; 
+        }
+     
+        .conjunto-parte2-3{
+            width: 100%; 
+        }
+
+        .box-imagen2-parte2{
+            width: 100%;
+        }
+
+        .imagen2-parte2{
+            width: 300px;
+            margin-top: 35px;
+        }
+    
+        .boton-segunda-parte{
+            margin-top: 15px;
+        }
+
+        .bottom-segunda-parte{
+            font-size: 16px;
+        }
+
+        .title-pass-flex{
+            font-size: 34px;
+         }
+        
+         .pass-flex{
+            margin-top: 35px;
+            display: flex;
+            flex-wrap:wrap
+         }
+
+         .box-pass{
+            width: 200px;
+         }
+
+         .fondo-pass-2{
+            text-align: center;
+         }
+
+         .fondo-pass-3{
+            height: 400px;
+         }
+
+         .title-pass-1 h2{
+            font-size: 20px;
+         }
+
+         .number{
+            font-size: 56px;
+         }
+
+         .pass-description p{
+            font-size: 12px;
+         }
+
+         .box-bottom-pass-1{
+            margin-top: 30px;
+         }
+
+         .boton-pass-1{
+            font-size: 16px;
+         }
+
+         .title-pass h2{
+            font-size: 16px;
+         }
+
+         .number-2{
+            font-size: 56px;
+         }
+
+         .pass-description-2 p{
+            font-size: 12px;
+         }
+
+         .title-pass-1 p{
+            font-size: px;
+         }
+
+         .logos-flex{ 
+            margin-top: 10px;
+            padding-right: 50px; 
+         }
+         .logos-flex img{
+            width: 75px; 
+         }
+
+         .fondo-contact{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+         }
+         .space-contact-us{
+            width: 80%;
+            margin-left: 20px; 
+            margin-top: 15px;
+            text-align: center;
+         }
+    
+         .title-contact-us h2{
+            font-size: 30px;
+         }
+
+         .texto-contact-us{
+            width: 100%;
+         }
+         .texto-contact-us p{
+            font-size: 14px;
+         }
+
+        .data-list-contact-us{
+            margin-top: 5px;
+        }
+
+         .space-formulario-flex{
+            margin-top: -10px;
+            padding-left: 10px;
+         }
+
+         .space-mensaje{
+            margin-top: 0px;
+         }
+
+         .mensaje{
+            height: 80px;
+         }
+
+         .boton-space{ 
+            margin-top: 10px;
+         }
+         
+         .copyright p{
+            font-size: 14px; 
+         }
+
+         .facebook{
+            width: 25px;
+         }
+
+}
+@media(max-width: 480px){
+    body{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    .flex-header{
+        padding-left: 25px;
+        padding-top: 15px;
+    }
+
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .titulo-header h1{
+        font-size: 40px;
+    }
+
+    .primera-parte{
+        margin-top: 35px;
+    }
+
+    .titulo-primera-parte span{
+        font-size: 24px;
+    }
+
+    .primera-parte-flex{
+        flex-wrap: wrap;
+    }
+
+    .title-smart1 h2{
+        font-size: 22px;
+    }
+
+    .contenido-smart1 p{
+        font-size: 18px;
+    }
+
+    .segunda-parte-flex{
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .conjunto-parte2{
+        margin-left: 80px;
+    }
+
+    .boton-segunda-parte{
+        margin-top: 30px;
+    }
+
+    .bottom-segunda-parte{
+        width: 125px;
+    }
+
+    .imagen1-parte2{
+        width: 250px;
+    }
+
+    .segunda-parte-flex-2{
+        margin-top: 30px;
+        margin-left: 0px;
+        flex-wrap: wrap;
+    }
+
+    .imagen2-parte2{
+        width: 270px;
+    }
+
+    .conjunto-parte2{
+        margin-left: 100px;
+    }
+
+    .boton-segunda-parte{
+        margin-top: 20px;
+    }
+
+    .box-title-pass-flex{
+        margin-top: 45px;
+    }
+
+    .title-pass-flex{
+        font-size: 32px;
+    }
+
+    .logos-flex{
+        flex-wrap: wrap;
+    }
+
+    .space-contact-us{
+        text-align: center;
+    }
+    
+    .title-contact-us h2 {
+        font-size: 26px;
+    }
+
+    .texto-contact-us{
+        margin-top: 15px;
+    }
+
+    .data-list-contact-us{
+        font-size: 14px;
+    }
+
+    .your{
+        width: 150px;
+    }
+    
+    footer{
+        padding: 10px;
+    }
+
+    .copyright p{
+        font-size: 12px;
+    }
+
+}
